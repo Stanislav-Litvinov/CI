@@ -39,19 +39,26 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent</id>
-                        <phase>initialize</phase>
+                        <id>prepare-agent-legacy</id>
+<!--                        <phase>initialize</phase>-->
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>report</id>
-                        <phase>verify</phase>
+                        <id>report-legacy</id>
+<!--                        <phase>verify</phase>-->
                         <goals>
                             <goal>report</goal>
                         </goals>
                     </execution>
+<!--                    <execution>-->
+<!--                        <id></id>-->
+<!--                        <phase></phase>-->
+<!--                        <goals>-->
+<!--                            <goal></goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
                 </executions>
             </plugin>
         </plugins>
